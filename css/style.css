@@ -46,7 +46,11 @@ a{
 
     img{
         top: 39%;
-        max-width: 385px;
+        max-width: 350px;
+    }
+
+    a{
+        max-width: 300px;
     }
 
     .orcamento{
