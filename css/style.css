@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+body{
+    background-image: url(../assets/Fundo-Site-PC.jpg);
+    max-width: 100%;
+}
+
+img{
+    position: absolute;
+    top: 14%;
+    left: 8%;
+}
+
+a{
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.31);
+}
+
+.orcamento{
+    content: url(../assets/orcamento.png);
+    position: absolute;
+    top: 69%;
+    left: 8%;
+}
+
+.portfolio{
+    content: url(../assets/portifolio.png);
+    position: absolute;
+    top: 81%;
+    left: 8%;
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 432px) {
+    
+    body{
+        background-image: url(../assets/Fundo-Site-Celular.jpg);
+        
+    }
+
+    img{
+        top: 39%;
+        max-width: 385px;
+    }
+
+    .orcamento{
+        top: 72%;
+    }
+
+}
+
